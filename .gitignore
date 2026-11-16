@@ -1,0 +1,20 @@
+# Python build / test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+.eval/
+
+# Local environment and virtualenvs (TideClock needs neither)
+.env
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/

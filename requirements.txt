@@ -1,0 +1,5 @@
+# TideClock runtime: Python 3.9+ standard library only — there are NO third-party
+# runtime dependencies, by design (the tool must run offline from a single file).
+#
+# The only declared package is the test runner used by `pytest`.
+pytest>=8.3,<10
